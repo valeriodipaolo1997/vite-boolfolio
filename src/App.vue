@@ -23,17 +23,29 @@ export default {
 </script>
 
 <template>
-  <div class="container">
+  <AppHeader />
+
+
+  <main>
+
+
+    <!--
+
+        <div class="container">
 
     
-    <h1 class="text-center text-warning py-5"> My Projects</h1>
+        <h1 class="text-center text-warning py-5"> My Projects</h1>
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
 
-      <ProjectCard :project="project" v-for="project in this.state.projects.data" />
+          <ProjectCard :project="project" v-for="project in this.state.projects.data" />
 
-    </div>
-  </div>
+        </div>
+      </div>
+        -->
+
+    <RouterView />
+  </main>
 </template>
 
 <style scoped></style>
