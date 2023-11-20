@@ -39,6 +39,9 @@ export default {
 
 
             </div>
+
+            <RouterLink :to="{ name: 'project', params: { slug: project.slug } }" class="text-white btn btn-primary">View
+            </RouterLink>
         </div>
     </div>
 </template>

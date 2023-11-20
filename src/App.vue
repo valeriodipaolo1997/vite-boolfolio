@@ -1,5 +1,6 @@
 <script>
 import ProjectCard from './components/ProjectCard.vue';
+import AppHeader from './components/AppHeader.vue';
 import { state } from './state.js';
 export default {
   name: 'App',
@@ -10,7 +11,8 @@ export default {
   },
 
   components: {
-    ProjectCard
+    ProjectCard,
+    AppHeader
   },
 
   methods: {
