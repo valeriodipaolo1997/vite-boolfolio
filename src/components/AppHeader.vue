@@ -18,6 +18,13 @@ export default {
                     <li>
                         <RouterLink class="nav-link active" to="/about">About</RouterLink>
                     </li>
+
+                    <li>
+                        <RouterLink class="nav-link active" to="/contacts">Contacts</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="nav-link active" to="/projects">Projects</RouterLink>
+                    </li>
                 </ul>
             </div>
         </nav>
