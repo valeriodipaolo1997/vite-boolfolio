@@ -29,12 +29,7 @@ export default {
 
                 <div><strong>Git_url:</strong>{{ project.git_url }}</div>
 
-                <div><strong>Type:</strong>{{ project.type }}</div>
 
-                <div><strong>Technologies:</strong></div>
-                <ul>
-                    <li v-for="technology in project.technologies">{{ technology.name }}</li>
-                </ul>
 
 
 

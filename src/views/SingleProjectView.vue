@@ -83,9 +83,27 @@ export default {
             </div>
         </div>
     </div>
-
-    
 </template>
 
+<style lang="scss" scoped>
+.links {
 
-<style lang="scss" scoped></style>
+    a {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.75);
+        text-decoration: none;
+
+        &:hover {
+            font-size: 1.25rem;
+            color: white;
+            background-color: black;
+
+            transition: all 0.5s;
+        }
+
+        svg {
+            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(4deg) brightness(104%) contrast(104%);
+        }
+    }
+}
+</style>
