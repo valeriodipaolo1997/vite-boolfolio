@@ -37,7 +37,7 @@ export default {
     <div class="project py-4">
         <div class="container">
 
-            <div class="card border-0 mx-auto col-3 d-flex flex-column gap-4">
+            <div class="card  border-0 mx-auto col-3 d-flex flex-column gap-4">
 
                 <img width="300" :src="project.thumb" alt="">
 

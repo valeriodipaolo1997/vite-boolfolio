@@ -1,7 +1,9 @@
 <script>
 import ProjectCard from './components/ProjectCard.vue';
 import AppHeader from './components/AppHeader.vue';
+import AppFooter from './components/AppFooter.vue';
 import { state } from './state.js';
+
 export default {
   name: 'App',
   data() {
@@ -12,8 +14,10 @@ export default {
 
   components: {
     ProjectCard,
-    AppHeader
-  },
+    AppHeader,
+    AppFooter,
+    
+},
 
   methods: {
 
@@ -48,6 +52,8 @@ export default {
 
     <RouterView />
   </main>
+
+  <AppFooter />
 </template>
 
 <style scoped></style>
